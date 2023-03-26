@@ -1,0 +1,61 @@
+.card {
+  width: 13rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.card .product-image {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product-img {
+  width: 13rem;
+  height: 10rem;
+}
+
+.card-details {
+  margin-top: -1rem;
+}
+
+.card-pricing {
+  margin-top: -1rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -2.5rem;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+}
+
+.input-checkbox {
+  opacity: 0;
+  cursor: pointer;
+}
+.check {
+  position: relative;
+  width: 15px;
+  display: inline-block;
+}
+.check::before,
+.rated::after {
+  content: "\2605";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.check:hover::before {
+  color: orange;
+}
+.rated {
+  color: orange;
+}
+.check i {
+  position: absolute;
+}
+.check i.em {
+  display: none;
+}

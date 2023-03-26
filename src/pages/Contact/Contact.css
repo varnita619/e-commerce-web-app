@@ -1,0 +1,39 @@
+.contact-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.sub-container {
+  width: 25rem;
+  box-shadow: 1px 1px 1px 1px gray;
+}
+
+.contact-heading {
+  text-align: center;
+}
+
+.contact-info {
+  line-height: 1rem;
+  padding: 3rem;
+  margin-top: -3.5rem;
+}
+
+.contact-mail {
+  font-size: 1.3rem;
+}
+
+.contact-subheading {
+  margin-top: -1rem;
+  font-size: 1.1rem;
+}
+
+.footer-content{
+  text-align: center;
+}
+
+.footer > img{
+  margin-right: 1rem;
+}

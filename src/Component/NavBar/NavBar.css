@@ -1,0 +1,39 @@
+.main-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem ;
+    flex-wrap: wrap;
+    font-family: 'Gobold_Regular';
+}
+
+.logo{
+    width: 4rem;
+    height: 3.5rem;
+    cursor: pointer;
+}
+
+.main-components{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.main-components a.active{
+    text-decoration: underline;
+}
+
+.individual-component{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.user-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.user-icon{
+    width: 3rem;
+    height: 3.6rem;
+}

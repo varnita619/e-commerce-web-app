@@ -1,0 +1,53 @@
+.team-container {
+  font-family: "Gobold_Regular";
+  padding: 2rem;
+}
+
+.team-message {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.team-members-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+}
+
+.shadow-card {
+  box-shadow: 0 4px 8px 0 gray;
+  transition: 0.3s;
+  width: 12rem;
+  border-radius: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .card-image {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-image img {
+  width: 12rem;
+  height: 13rem;
+}
+
+.shadow-card-details {
+  line-height: 0.2rem;
+  text-align: center;
+}
+
+.social-icon {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin: 0.5rem;
+}
+
+.last-message {
+  text-align: center;
+}
